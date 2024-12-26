@@ -1,0 +1,85 @@
+.navbarContainer {
+    background-color: #DAA520			;
+    padding: 0rem 2rem;
+    width: 100%;
+    margin-bottom: 2rem;
+
+}
+
+.Logo {
+    height: 5rem;
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.navbarItems {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items: center;
+    
+
+}
+
+.navbarLinksContainer {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+
+}
+
+.navbarLink {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: bold;
+    
+}
+
+.mobNavbarItems {
+    display: none;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items: center;
+
+}
+.mobNavbarLinks {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.DrawContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 40vh;
+    padding: 2rem;
+    font-size: 2rem;
+    gap: 1rem;
+    background-color: #DAA520	
+
+}
+
+@media screen and (max-width: 600px) {
+    .navbarItems {
+        display: none;
+    }
+    .mobNavbarItems {
+        display: flex;
+    }
+    .mobNavbarLinks {
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+    }
+    .mobNavbarLink {
+        color: white;
+        text-decoration: none;
+        font-size: 1.2em;
+        font-weight: bold;
+    }
+}

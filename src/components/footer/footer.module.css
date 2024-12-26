@@ -1,0 +1,29 @@
+
+
+footer {
+    margin-top: auto; /* Isso empurra o footer para o fundo */
+  }
+
+.footerContainer, .linksContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #DAA520;
+    color: #faf0ca;
+}
+
+.footerContainer {
+    margin-top: 2rem;
+    gap: 1em;
+    padding-bottom: 1em;
+}
+
+.footerContainer img {
+    width: 7em;
+}
+
+.link {
+    color: #faf0ca;  
+    text-decoration: underline; 
+}
