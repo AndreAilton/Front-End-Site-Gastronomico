@@ -10,7 +10,7 @@ import { CartProvider } from './contexts/useCartContext';
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <CartProvider>
-      <BrowserRouter>
+      <BrowserRouter basename='/Front-End-Site-Gastronomico'>
         <Navbar />
         <div style={{ display: 'flex', flexDirection: 'column', minHeight: '61Vh'}}>
         <MainRoutes />

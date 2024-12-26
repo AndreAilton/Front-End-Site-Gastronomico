@@ -8,11 +8,11 @@ import Auth from "./pages/auth";
 export default function MainRoutes() {
   return (
     <Routes>
-      <Route path="Front-End-Site-Gastronomico/" element={<Home />} />
-      <Route path="Front-End-Site-Gastronomico/plates" element={<Plates />} />
-      <Route path="Front-End-Site-Gastronomico/profile" element={<Profile />} />
-      <Route path="Front-End-Site-Gastronomico/cart" element={<Cart />} />
-      <Route path="Front-End-Site-Gastronomico/auth" element={<Auth />} />
+      <Route path="/" element={<Home />} />
+      <Route path="/plates" element={<Plates />} />
+      <Route path="/profile" element={<Profile />} />
+      <Route path="/cart" element={<Cart />} />
+      <Route path="/auth" element={<Auth />} />
     </Routes>
   );
 }

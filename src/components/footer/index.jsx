@@ -8,9 +8,9 @@ export default function Footer() {
             <div>
                 <h2>Important Links</h2>
                 <div className={styles.linksContainer}>
-                    <Link className={styles.link} to={'Front-End-Site-Gastronomico/'}>Homepage</Link>
-                    <Link className={styles.link} to={'Front-End-Site-Gastronomico/plates'}>Plates</Link>
-                    <Link className={styles.link} to={'Front-End-Site-Gastronomico/profile'}>Profile</Link>
+                    <Link className={styles.link} to={'/'}>Homepage</Link>
+                    <Link className={styles.link} to={'/plates'}>Plates</Link>
+                    <Link className={styles.link} to={'/profile'}>Profile</Link>
                 </div>
             </div>
 
