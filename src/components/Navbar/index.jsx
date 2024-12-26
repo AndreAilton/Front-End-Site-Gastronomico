@@ -19,20 +19,20 @@ export default function Index() {
         </Link>
 
         <div className="navbarLinksContainer">
-          <Link to="/" className="navbarLink">
+          <Link to="Front-End-Site-Gastronomico/" className="navbarLink">
             Home
           </Link>
-          <Link to="/plates" className="navbarLink">
+          <Link to="Front-End-Site-Gastronomico/plates" className="navbarLink">
             Plates
           </Link>
-          <Link to="/cart" className="navbarLink">
+          <Link to="Front-End-Site-Gastronomico/cart" className="navbarLink">
           <LuShoppingCart
             color="white"
             size={25}
             style={{ cursor: "pointer" }}
           />
           </Link>
-          <Link to="/profile" className="navbarLink">
+          <Link to="Front-End-Site-Gastronomico/profile" className="navbarLink">
             <LuCircleUserRound
               color="white"
               size={25}
@@ -43,11 +43,11 @@ export default function Index() {
       </div>
 
       <div className="mobNavbarItems">
-        <Link to="/" className="navbarLink">
+        <Link to="Front-End-Site-Gastronomico/" className="navbarLink">
           <img src="imgs/logo.png" alt="" className="Logo" />
         </Link>
         <div className="mobNavbarLinks">
-        <Link to="/cart" className="navbarLink">
+        <Link to="Front-End-Site-Gastronomico/cart" className="navbarLink">
           <LuShoppingCart
             color="white"
             size={30}
@@ -68,13 +68,13 @@ export default function Index() {
           onClose={handleMenu}
         >
           <div className="DrawContainer">
-            <Link to="/" className="navbarLink" onClick={handleMenu}>
+            <Link to="Front-End-Site-Gastronomico/" className="navbarLink" onClick={handleMenu}>
               Home
             </Link>
-            <Link to="/plates" className="navbarLink" onClick={handleMenu} >
+            <Link to="Front-End-Site-Gastronomico/plates" className="navbarLink" onClick={handleMenu} >
               Plates
             </Link>
-            <Link to="/profile" className="navbarLink" onClick={handleMenu}>
+            <Link to="Front-End-Site-Gastronomico/profile" className="navbarLink" onClick={handleMenu}>
               Profile
             </Link>
           </div>
